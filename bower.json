@@ -1,0 +1,20 @@
+{
+  "name": "ddm-namespace",
+  "authors": [
+    "Joshua Stoutenburg <jstoutenburg@deseretdigital.com>"
+  ],
+  "description": "A method to namespace your JavaScript",
+  "main": "namespace.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "ddm",
+    "namespace"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/deseretdigital-ui/ddm-namespace",
+  "ignore": [
+    "**/.*"
+  ]
+}

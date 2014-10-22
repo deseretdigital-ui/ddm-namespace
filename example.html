@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>DDM Namespace Example</title>
+  <meta name="description" content="DDM Namespace Example" />
+
+  <script src="namespace.js"></script>
+</head>
+<body>
+
+<h1>DDM Namespace Example</h1>
+<div id="namespacerTarget"></div>
+
+<script>
+  ddm.namespace('ddmUI.alerts.awesome', function() {
+    document.getElementById('namespacerTarget').innerHTML = "It worked!";
+  });
+
+  ddmUI.alerts.awesome();
+</script>
+</body>
+</html>
